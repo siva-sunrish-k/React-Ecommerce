@@ -5,9 +5,11 @@ import { product_data_3 } from "../api/dummyData.jsx";
 import { v4 as uuidv4 } from 'uuid';
 import { useState, useEffect } from "react";
 import { ShimmerCircularImage, ShimmerSimpleGallery } from "react-shimmer-effects";
-import ProductCard2 from "./productCard2";
+// import ProductCard2 from "./productCard2";
 import useProductData from "../hooks/useProductData.jsx";
+// import productCard2 from './ProductCard2';
 
+import ProductCard2 from "./ProductCard2.jsx";
 
 // const ProductLayout = () => {
 //     return (
@@ -53,7 +55,6 @@ const productWithCategory = (Component) => {
     }
     return EnhancedComponent;
 }
-
 
 const ProductLayout = () => {
 
